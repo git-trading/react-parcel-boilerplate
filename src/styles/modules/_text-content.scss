@@ -1,0 +1,11 @@
+p {
+  
+  &:last-child {
+    transform: rotate(180deg);
+  }
+
+  &:first-child {
+    background: darkgoldenrod;
+  }
+  
+}

@@ -1,0 +1,40 @@
+body {
+  color: #e0e0e0;
+  background-color: #21374b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+@define-mixin atSmall {
+  @media (min-width: 530px) {
+    @mixin-content;
+  }
+}
+@define-mixin atMedium {
+  @media (min-width: 800px) {
+    @mixin-content;
+  }
+}
+@define-mixin atLarge {
+  @media (min-width: 1010px) {
+    @mixin-content;
+  }
+}
+.wrapper {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.main-header {
+  font-size: 20px;
+}
+
+p:last-child {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+p:first-child {
+  background: darkgoldenrod;
+}
+
+/*# sourceMappingURL=/src.a2b27638.css.map */
